@@ -5,7 +5,7 @@ from kivy.uix.label import Label
 class Test(App):
 
     def build(self):
-        return Label('Fuck You Mo!')
+        return Label(text='Fuck You Mo!')
 
 
 Test().run()
